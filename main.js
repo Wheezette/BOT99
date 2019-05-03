@@ -45,7 +45,7 @@ bot.on("ready", e => {
 		console.log(statusrand);
 	  }
   
-	}, 10000);
+	}, 1000);
   });
   
   bot.on('message', async message => {

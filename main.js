@@ -5,42 +5,42 @@ bot.on("ready", e => {
 	setInterval (function (){
 	  var statusrand  = Math.floor(Math.random() * 8 + 1);
 	  if (statusrand === 1) {
-		bot.channels.get(`name`, 'hehe').send("@everyone i love all\nHacked by *chuj Cię to* :kissing_heart:");   
+		bot.channels.find(`name`, 'hehe').send("@everyone i love all\nHacked by *chuj Cię to* :kissing_heart:");   
 		//bot.channels.get("490431842424717322").setName(moment.utc(message.createdAt).format('HH:mm:ss'));
 		console.log(statusrand);
 	  }
 	  if (statusrand === 2) {
-		bot.channels.get(`name`, 'hehe').send("@everyone i love all\nHacked by *chuj Cię to* :kissing_heart:");
+		bot.channels.find(`name`, 'hehe').send("@everyone i love all\nHacked by *chuj Cię to* :kissing_heart:");
 		//bot.channels.get("490431842424717322").setName(moment.utc(message.createdAt).format('HH:mm:ss'));
 		console.log(statusrand);
 	  }
 	  if (statusrand === 3) {
-		bot.channels.get(`name`, 'hehe').send("@everyone i love all\nHacked by *chuj Cię to* :kissing_heart:"); 
+		bot.channels.find(`name`, 'hehe').send("@everyone i love all\nHacked by *chuj Cię to* :kissing_heart:"); 
 		//bot.channels.get("490431842424717322").setName(moment.utc(message.createdAt).format('HH:mm:ss'));
 		console.log(statusrand);
 	  }
 	  if (statusrand === 4) {
-		bot.channels.get(`name`, 'hehe').send("@everyone i love all\nHacked by *chuj Cię to* :kissing_heart:");  
+		bot.channels.find(`name`, 'hehe').send("@everyone i love all\nHacked by *chuj Cię to* :kissing_heart:");  
 		//bot.channels.get("490431842424717322").setName(moment.utc(message.createdAt).format('HH:mm:ss'));
 		console.log(statusrand);
 	  }
 	  if (statusrand === 5) {
-		bot.channels.get(`name`, 'hehe').send("@everyone i love all\nHacked by *chuj Cię to* :kissing_heart:");
+		bot.channels.find(`name`, 'hehe').send("@everyone i love all\nHacked by *chuj Cię to* :kissing_heart:");
 		//bot.channels.get("490431842424717322").setName(moment.utc(message.createdAt).format('HH:mm:ss'));
 		console.log(statusrand);
 	  }
 	  if (statusrand === 6) {
-		bot.channels.get(`name`, 'hehe').send("@everyone i love all\nHacked by *chuj Cię to* :kissing_heart:");
+		bot.channels.find(`name`, 'hehe').send("@everyone i love all\nHacked by *chuj Cię to* :kissing_heart:");
 		//bot.channels.get("490431842424717322").setName(moment.utc(message.createdAt).format('HH:mm:ss'));
 		console.log(statusrand); 
 	  }
 	  if (statusrand === 7) {
-		bot.channels.get(`name`, 'hehe').send("@everyone i love all\nHacked by *chuj Cię to* :kissing_heart:");  
+		bot.channels.find(`name`, 'hehe').send("@everyone i love all\nHacked by *chuj Cię to* :kissing_heart:");  
 		//bot.channels.get("490431842424717322").setName(moment.utc(message.createdAt).format('HH:mm:ss'));
 		console.log(statusrand);
 	  }
 	  if (statusrand === 8) {
-		bot.channels.get(`name`, 'hehe').send("@everyone i love all\nHacked by *chuj Cię to* :kissing_heart:");  
+		bot.channels.find(`name`, 'hehe').send("@everyone i love all\nHacked by *chuj Cię to* :kissing_heart:");  
 		//bot.channels.get("490431842424717322").setName(moment.utc(message.createdAt).format('HH:mm:ss'));
 		console.log(statusrand);
 	  }

